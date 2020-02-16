@@ -52,5 +52,4 @@ class GameLevel:
 
 	def draw(self, renderer):
 		for tile in self.bricks:
-			print("test")
 			tile.draw(renderer)
